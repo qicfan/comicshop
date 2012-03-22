@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:20px;
+}
+a:link,a:visited{
+	text-decoration:none;
+	color:#0066CC;
+}
+a:hover{
+	text-decoration:underline;
+	color:#FF0000;
+}
+a img{
+	border:0px;
+}
+table{
+	border-collapse:collapse;
+}
+.stripe table{
+	border:0px;
+	border-collapse:collapse;
+	margin:auto;
+}
+.stripe th{
+	border:1px solid #0066CC;
+	background:#CCCCCC;
+	color:#000000;
+	line-height:20px;
+	height:20px;
+	font-size:14px;
+}
+.stripe td{
+	height:20px;
+	line-height:20px;
+	padding:3px;
+	border:1px solid #0066CC;
+	vertical-align:top;
+	text-align:center;
+	font-size:14px;
+}
+.stripe td *{
+	padding:2px 4px;
+}
+.stripe tr.alt td{
+	background:#ECF6FC;
+}
+.stripe tr.over td{
+	background:#BCD4EC;
+}
